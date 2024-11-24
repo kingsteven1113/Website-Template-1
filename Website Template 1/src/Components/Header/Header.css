@@ -35,18 +35,47 @@ li {
 
 .ListItemA {
     display: block;
+
+    .AccentAnimation {
+      display: block;
+      transition: 0.5s;
+      width: 0%;
+      background-color: #000000;
+      height: 2px;
+    }
 }
+
+.ListItemA:hover {
+
+  .AccentAnimation {
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    background-color: #0943e0;
+    height: 2px;
+  }
+}
+
+
+
 .MenuItemA {
-    padding: 20px;
+    display: block;
+    padding: 10px;
     color: black;
-    margin: 20px;
+    margin: 10px;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
+    transition: 0.5s;
+
+   
 }
 .MenuItemA:hover {
     cursor: pointer;
     color: #0943e0;
+    transition: 0.5s;
+
+   
 
 }
 
@@ -67,8 +96,8 @@ li {
 }
   .MenuItemB:hover {
     border-color: #646cff;
-    background-color: white;
-    color: #1a1a1a;
+    background-color: #4385ff;
+            color: #fff;
     transition: 0.5s;
   }
   .MenuItemB:focus,
@@ -123,20 +152,41 @@ li {
     }
     
     .ListItemA {
+      display: block;
+  
+      .AccentAnimation {
         display: block;
+        transition: 0.5s;
+        width: 0%;
+        background-color: #000000;
+        height: 2px;
+      }
+  }
+  
+  .ListItemA:hover {
+  
+    .AccentAnimation {
+      display: block;
+      transition: 0.5s;
+      width: 100%;
+      background-color: #0943e0;
+      height: 2px;
     }
+  }
     .MenuItemA {
-        padding: 20px;
+      display: block;
+        padding: 10px;
         color: black;
         margin: 10px;
         text-decoration: none;
         font-size: 18px;
         font-weight: 600;
+        transition: 0.5s;
     }
     .MenuItemA:hover {
         cursor: pointer;
         color: #0943e0;
-    
+        transition: 0.5s;
     }
     
     .MenuItemB {
@@ -156,8 +206,8 @@ li {
     }
       .MenuItemB:hover {
         border-color: #646cff;
-        background-color: white;
-        color: #1a1a1a;
+        background-color: #4385ff;
+            color: #fff;
         transition: 0.5s;
       }
       .MenuItemB:focus,
@@ -246,8 +296,8 @@ li {
         }
           .MenuItemB:hover {
             border-color: #646cff;
-            background-color: white;
-            color: #1a1a1a;
+            background-color: #4385ff;
+            color: #fff;
             transition: 0.5s;
           }
           .MenuItemB:focus,

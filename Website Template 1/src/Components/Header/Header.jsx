@@ -10,14 +10,20 @@ const Header = () => {
             <a href='/' className='Logo'>Dental Office</a>
           <ul className='HeaderList'>
             <li className='ListItemA'>
-                <a className='MenuItemA' href="/about">About Us</a>
+                <a className='MenuItemA' href="/about">About Us
                 <div className='AccentAnimation'></div>
+                </a>
+                
             </li>
             <li className='ListItemA'>
-                <a className='MenuItemA' href="/services">Services</a>
+                <a className='MenuItemA' href="/services">Services
+                <div className='AccentAnimation'></div>
+                </a>
             </li>
             <li className='ListItemA'>
-                <a className='MenuItemA' href="/reviews">Reviews</a>
+                <a className='MenuItemA' href="/reviews">Reviews
+                <div className='AccentAnimation'></div>
+                </a>
             </li>
           </ul>
             <div className='MobileContact'>
@@ -33,9 +39,11 @@ const Header = () => {
             </li>
             <li className='ListItemA'>
                 <a className='MenuItemA' href="/services">Services</a>
+                <div className='AccentAnimation'></div>
             </li>
             <li className='ListItemA'>
                 <a className='MenuItemA' href="/reviews">Reviews</a>
+                <div className='AccentAnimation'></div>
             </li>
           </ul>
         </div>

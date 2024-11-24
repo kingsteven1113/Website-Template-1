@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1263px) {
+
+    body {
+        background-color: white;
+    }
+    
+    .HeroSection {
+        background-image: linear-gradient(to bottom , #ffffff, #bfd5fd);
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .HeroText {
+        width: 30vw;
+        padding: 20px;
+    }
+
+    
+    
+    .HeroH1 {
+        color: #4385ff;
+        font-size: 36px;
+        font-family: Poppins;
+        font-weight: 500;
+    }
+    
+    .HeroParagraph {
+        color: #000;
+        font-family: Poppins;
+    }
+
+    .HeroImage {
+        width: 50vw;
+        margin: 20px;
+        background-image: url(../../assets/DentalHeroImage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        
+    }
+    
+    }
+    
+    @media only screen and (max-width: 1262px) {
+    
+        }
+    
+    
+        @media only screen and ((max-width: 900px)) {
+            
+            }
