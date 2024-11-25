@@ -11,7 +11,8 @@ li {
     font-weight: 600;
     font-size: 28px;
     text-decoration: none;
-    transition: 0.5s
+    transition: 0.5s;
+    font-family: Poppins;
 }
 
 .Logo:hover {
@@ -46,6 +47,7 @@ li {
 }
 
 .ListItemA:hover {
+  cursor: pointer;
 
   .AccentAnimation {
     display: block;
@@ -54,6 +56,14 @@ li {
     background-color: #0943e0;
     height: 2px;
   }
+
+  .MenuItemA {
+    color: #0943e0;
+    transition: 0.5s;
+
+   
+
+}
 }
 
 
@@ -70,14 +80,7 @@ li {
 
    
 }
-.MenuItemA:hover {
-    cursor: pointer;
-    color: #0943e0;
-    transition: 0.5s;
 
-   
-
-}
 
 .MenuItemB {
     
@@ -129,7 +132,9 @@ li {
         font-weight: 600;
         font-size: 28px;
         text-decoration: none;
-        transition: 0.5s
+        transition: 0.5s;
+        font-family: Poppins;
+        
     }
     
     .Logo:hover {
@@ -164,6 +169,7 @@ li {
   }
   
   .ListItemA:hover {
+    cursor: pointer;
   
     .AccentAnimation {
       display: block;
@@ -172,6 +178,12 @@ li {
       background-color: #0943e0;
       height: 2px;
     }
+
+    .MenuItemA {
+      
+      color: #0943e0;
+      transition: 0.5s;
+  }
   }
     .MenuItemA {
       display: block;
@@ -183,11 +195,7 @@ li {
         font-weight: 600;
         transition: 0.5s;
     }
-    .MenuItemA:hover {
-        cursor: pointer;
-        color: #0943e0;
-        transition: 0.5s;
-    }
+    
     
     .MenuItemB {
         
@@ -240,7 +248,8 @@ li {
             font-weight: 600;
             font-size: 28px;
             text-decoration: none;
-            transition: 0.5s
+            transition: 0.5s;
+            font-family: Poppins;
         }
         
         .Logo:hover {
@@ -255,6 +264,7 @@ li {
             background-color: white;
             padding-left: 20px;
             padding-right: 20px;
+            padding-top: 20px;;
             flex-wrap: wrap;
         }
         .HeaderList {
@@ -263,21 +273,41 @@ li {
         }
         
         .ListItemA {
+          display: block;
+      
+          .AccentAnimation {
             display: block;
+            transition: 0.5s;
+            width: 0%;
+            background-color: #ffd30d;
+            height: 2px;
+          }
+      }
+      
+      .ListItemA:hover {
+        cursor: pointer;
+      
+        .AccentAnimation {
+          display: block;
+          transition: 0.5s;
+          width: 100%;
+          background-color: #ffd30d;
+          height: 2px;
         }
+
+        .MenuItemA {
+            color: #fff;
+        }
+      }
         .MenuItemA {
             padding: 20px;
-            color: black;
+            color: white;
             margin: 10px;
             text-decoration: none;
             font-size: 18px;
             font-weight: 600;
         }
-        .MenuItemA:hover {
-            cursor: pointer;
-            color: #0943e0;
         
-        }
         
         .MenuItemB {
             
@@ -313,11 +343,37 @@ li {
             margin: auto;
           }
 
+          .MobileList {
+            display: block;
+            background-color: #0E6EB8;
+            padding-bottom: 30px;
+          }
+
           .MobileContact {
             display: flex;
           }
           .HeaderListMobile {
             display: block;
           }
-        
+         
+        .closed {
+          display: none;
+          transition: 1s;
+          height: 0;
+        }
+
+        .open {
+          display: block;
+          transition: 1s;
+          height: auto;
+        }
+        .CloseIcon {
+          color: black;
+          margin: auto;
+          height: 50px;
+          width: 50px;
+        }
+        .CloseIcon:hover {
+            cursor: pointer;
+        }
         }

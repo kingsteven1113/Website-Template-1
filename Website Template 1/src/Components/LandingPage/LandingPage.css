@@ -7,19 +7,36 @@
     .HeroSection {
         background-image: linear-gradient(to bottom , #ffffff, #bfd5fd);
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .HeroText {
         width: 30vw;
-        padding: 20px;
+        padding: 100px;
+    }
+
+    .HeroCTA {
+        padding: 20px 50px;
+        border-radius: 20px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: Poppins;
+        letter-spacing: 2px;
+        margin-top: 50px;
+    }
+    .SecondaryCTA {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+        
     }
 
     
     
     .HeroH1 {
         color: #4385ff;
-        font-size: 36px;
+        font-size: 48px;
         font-family: Poppins;
         font-weight: 500;
     }
@@ -27,21 +44,88 @@
     .HeroParagraph {
         color: #000;
         font-family: Poppins;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+    .HeroNameSpan {
+        font-weight: 600;
+        color: #4385ff;
     }
 
     .HeroImage {
         width: 50vw;
-        margin: 20px;
-        background-image: url(../../assets/DentalHeroImage.jpg);
-        background-size: cover;
+        object-fit: cover;
         background-repeat: no-repeat;
-        border-radius: 20px;
+        filter: drop-shadow(-5px 5px 5px #00000050);
+        
         
     }
     
     }
     
     @media only screen and (max-width: 1262px) {
+
+        body {
+            background-color: white;
+        }
+        
+        .HeroSection {
+            background-image: linear-gradient(to bottom , #ffffff, #bfd5fd);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .HeroText {
+            width: auto;
+            padding: 100px;
+        }
+    
+        .HeroCTA {
+            padding: 20px 50px;
+            border-radius: 20px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: Poppins;
+            letter-spacing: 2px;
+            margin-top: 50px;
+        }
+        .SecondaryCTA {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 500;
+            letter-spacing: 1px;
+            
+        }
+    
+        
+        
+        .HeroH1 {
+            color: #4385ff;
+            font-size: 48px;
+            font-family: Poppins;
+            font-weight: 500;
+        }
+        
+        .HeroParagraph {
+            color: #000;
+            font-family: Poppins;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+        .HeroNameSpan {
+            font-weight: 600;
+            color: #4385ff;
+        }
+    
+        .HeroImage {
+            width: auto;
+            object-fit: cover;
+            background-repeat: no-repeat;
+            filter: drop-shadow(0px 0px 5px #00000050);
+            
+            
+        }
     
         }
     
