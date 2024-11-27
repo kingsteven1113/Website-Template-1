@@ -2,7 +2,9 @@
 
     body {
         background-color: white;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
     }
     
     .HeroSection {
@@ -171,6 +173,70 @@
         font-weight: 500;
         text-align: center;
     }
+
+    .WhoWeAre {
+        display: flex;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        gap: 5vw;
+    }
+
+    .WhoWeAre img {
+        width: 45vw;
+        object-fit: contain;
+    }
+    .WhoWeAreText {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .WhoWeAreText h2 {
+        color: #4385ff;
+        font-family: Poppins;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 36px;
+        
+    }
+
+    .WhoWeAreText p {
+        color: #000;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        
+        
+    }
+
+    .WhoWeAre span {
+        color: #1051c9;
+        font-weight: 600;
+    }
+
+    .WhoWeAreCTA {
+        font-weight: 500;
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 20px 50px;
+        border-radius: 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: Poppins;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-align: center;
+        width: 30%;
+        transition: 0.5s;
+    }
+
+    .WhoWeAreCTA:hover {
+        border-color: #646cff;
+        background-color: #4385ff;
+            color: #fff;
+        transition: 0.5s;
+      }
     
     }
     
@@ -334,11 +400,92 @@
         font-weight: 500;
         text-align: center;
     }
+
+    .WhoWeAre {
+        display: flex;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        gap: 5vw;
+    }
+
+    .WhoWeAre img {
+        width: 45vw;
+        object-fit: contain;
+    }
+    .WhoWeAreText {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .WhoWeAreText h2 {
+        color: #4385ff;
+        font-family: Poppins;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 36px;
+        
+    }
+
+    .WhoWeAreText p {
+        color: #000;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        
+        
+    }
+
+    .WhoWeAre span {
+        color: #1051c9;
+        font-weight: 600;
+    }
+
+    .WhoWeAreCTA {
+        font-weight: 500;
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 20px 50px;
+        border-radius: 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: Poppins;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-align: center;
+        width: 30%;
+    }
+
+    .WhoWeAreCTA:hover {
+        border-color: #646cff;
+        background-color: #4385ff;
+            color: #fff;
+        transition: 0.5s;
+      }
+    
+    
     
         }
     
     
         @media only screen and ((max-width: 900px)) {
+
+            .HeroCTA {
+                font-weight: 500;
+                background-color: #1a1a1a;
+                color: #fff;
+                padding: 20px 50px;
+                border-radius: 20px;
+                font-size: 18px;
+                text-transform: uppercase;
+                font-family: Poppins;
+                letter-spacing: 2px;
+                text-decoration: none;
+                text-align: center;
+                width: 50%;
+                
+            }       
 
             
     .MeetTheTeam {
@@ -429,5 +576,71 @@
         font-weight: 500;
         text-align: center;
     }
+
+    .WhoWeAre {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        gap: 5vw;
+    }
+
+    .WhoWeAre img {
+        width: 100%;
+        object-fit: contain;
+    }
+    .WhoWeAreText {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .WhoWeAreText h2 {
+        color: #4385ff;
+        font-family: Poppins;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 36px;
+        
+    }
+
+    .WhoWeAreText p {
+        color: #000;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        
+        
+    }
+
+    .WhoWeAre span {
+        color: #1051c9;
+        font-weight: 600;
+    }
+
+    .WhoWeAreCTA {
+        font-weight: 500;
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 20px 50px;
+        border-radius: 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: Poppins;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-align: center;
+        width: 30%;
+    }
+
+    .WhoWeAreCTA:hover {
+        border-color: #646cff;
+        background-color: #4385ff;
+            color: #fff;
+        transition: 0.5s;
+      }
+    
+    
             
             }

@@ -3,6 +3,7 @@ import './LandingPage.css'
 import HeroVideo from '../../assets/DentalHeroVideo.mp4'
 import TeamMember1 from '../../assets/TeamMember1.jpg'
 import TeamMember2 from '../../assets/TeamMember2.jpg'
+import WhoWeAreImage from '../../assets/WhoWeAreImage.jpg'
 const LandingPage = () => {
 
     
@@ -49,10 +50,12 @@ const LandingPage = () => {
             </div>
 
             <div className='WhoWeAre'>
-                <img src="" alt="" />
-                <h2>Who We Are</h2>
-                <p>Something about what makes Premier Dental Different from the other dental offices you see in the area.</p>
-                <button>Reviews</button>
+                <img src={WhoWeAreImage} alt="" />
+                <div className='WhoWeAreText'>
+                  <h2>What Are People Saying</h2>
+                  <p>At Premier Dental, we are committed to providing <span>exceptional dental care</span> in a friendly and comfortable environment. Our experienced team of professionals uses the <span>latest technology and techniques</span> to ensure each patient receives <span>personalized treatment tailored to their needs.</span> <br /> <br /> With a focus on both preventative care and advanced procedures, <span>we strive to make every visit a positive experience.</span> Don’t just take our word for it—our patients consistently leave us high ratings and glowing reviews for our compassionate care and attention to detail. <span>We’re proud to have built a reputation for excellence, and we look forward to helping you achieve a healthy, beautiful smile.</span> </p>
+                  <a href='/reviews'className='WhoWeAreCTA'>Reviews</a>
+                </div>
               </div>
               <div className='ContactForm'>
                   <form action="">
