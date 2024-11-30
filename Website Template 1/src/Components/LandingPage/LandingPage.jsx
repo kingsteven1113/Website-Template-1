@@ -57,6 +57,17 @@ const LandingPage = () => {
                   <a href='/reviews'className='WhoWeAreCTA'>Reviews</a>
                 </div>
               </div>
+
+              <div className='SpecialOffers'>
+                <h2 className='SpecialOffersH2'>Special Offers</h2>
+                <ul className='SpecialOffersList'>
+                  <li className='SpecialOffersItem'>Free First Cleaning</li>
+                  <li className='SpecialOffersItem'>Referral Rewards Plan</li>
+                  <li className='SpecialOffersItem'>Family Check-Up Discount</li>
+                </ul>
+                <a className='SpecialOffersCTA' href="/contact">Book An Appointment</a>
+              </div>
+
               <div className='ContactForm'>
                   <form action="">
                     <h3>Name</h3>

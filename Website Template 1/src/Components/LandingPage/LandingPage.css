@@ -237,6 +237,45 @@
             color: #fff;
         transition: 0.5s;
       }
+
+      .SpecialOffersCTA {
+        font-weight: 500;
+        background-color: #1a1a1a;
+        color: #fff;
+        padding: 20px 50px;
+        border-radius: 20px;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: Poppins;
+        letter-spacing: 2px;
+        text-decoration: none;
+        text-align: center;
+        width: 30%;
+        transition: 0.5s;
+    }
+
+    .SpecialOffersCTA:hover {
+        border-color: #646cff;
+        background-color: #4385ff;
+            color: #fff;
+        transition: 0.5s;
+      }
+
+      .SpecialOffers h2 {
+        color: #4385ff;
+        font-family: Poppins;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 36px;
+        
+    }
+
+    .SpecialOffersList li {
+        color: #000;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+    }
     
     }
     
