@@ -238,6 +238,15 @@
         transition: 0.5s;
       }
 
+    .SpecialOffers {
+            display: flex;
+            flex-direction: column;
+            margin-right: 5vw;
+            margin-left: 5vw;
+            margin-top: 5vw;
+            gap: 2vw;
+    }
+
       .SpecialOffersCTA {
         font-weight: 500;
         background-color: #1a1a1a;
@@ -250,7 +259,7 @@
         letter-spacing: 2px;
         text-decoration: none;
         text-align: center;
-        width: 30%;
+        width: 20%;
         transition: 0.5s;
     }
 
@@ -267,6 +276,7 @@
         font-weight: 600;
         letter-spacing: 1px;
         font-size: 36px;
+        margin: 0px;
         
     }
 
@@ -275,9 +285,34 @@
         font-family: Poppins;
         font-weight: 400;
         font-size: 18px;
+        list-style-type: square;
+    }
+
+    .SpecialOffersList p {
+        color: #000;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .TopFooter {
+        display: flex;
+        margin: 0;
+        background-color: #4385ff;
+    }
+
+    .TopFooterSec1 {
+        width: 33vw;
+    }
+    .TopFooterSec2 {
+        width: 34vw;
+    }
+    .TopFooterSec3 {
+        width: 33vw;
     }
     
     }
+    
     
     @media only screen and (max-width: 1262px) {
 
@@ -305,7 +340,7 @@
             font-weight: 500;
             background-color: #1a1a1a;
             color: #fff;
-            padding: 20px 50px;
+            padding: 20px 0px;
             border-radius: 20px;
             font-size: 18px;
             text-transform: uppercase;
@@ -313,9 +348,17 @@
             letter-spacing: 2px;
             text-decoration: none;
             text-align: center;
-            width: 30%;
+            width: 50%;
             
         }
+
+        .HeroCTA:hover {
+            border-color: #646cff;
+            background-color: #4385ff;
+                color: #fff;
+            transition: 0.5s;
+          }
+    
         .SecondaryCTA {
             font-size: 18px;
             text-transform: uppercase;
@@ -525,6 +568,13 @@
                 width: 50%;
                 
             }       
+            .HeroCTA:hover {
+                border-color: #646cff;
+                background-color: #4385ff;
+                    color: #fff;
+                transition: 0.5s;
+              }
+        
 
             
     .MeetTheTeam {

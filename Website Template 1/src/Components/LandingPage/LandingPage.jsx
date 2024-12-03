@@ -6,6 +6,7 @@ import TeamMember2 from '../../assets/TeamMember2.jpg'
 import WhoWeAreImage from '../../assets/WhoWeAreImage.jpg'
 const LandingPage = () => {
 
+  document.getElementById('year').textContent = new Date().getFullYear();
     
       return (
         <div>
@@ -61,26 +62,46 @@ const LandingPage = () => {
               <div className='SpecialOffers'>
                 <h2 className='SpecialOffersH2'>Special Offers</h2>
                 <ul className='SpecialOffersList'>
-                  <li className='SpecialOffersItem'>Free First Cleaning</li>
-                  <li className='SpecialOffersItem'>Referral Rewards Plan</li>
-                  <li className='SpecialOffersItem'>Family Check-Up Discount</li>
+                  <li className='SpecialOffersItem'>Free First Cleaning
+                  <p>First Time Visiting our Office? Here is a reward for choosing us to take care of your smile!</p>
+                  </li>
+                  
+                  <li className='SpecialOffersItem'>Referral Rewards Plan
+                  <p>Bring a friend in and we will waive your next co-pay on your next visit!</p>
+                  </li>
+                  <li className='SpecialOffersItem'>Biannual Family Check-Up Discount
+                  <p>Get your checkup twice a year and get a discount on the second checkup for all family members. (Only Applicable to those who have had an appointment within the last year.)</p>
+                  </li>
                 </ul>
                 <a className='SpecialOffersCTA' href="/contact">Book An Appointment</a>
               </div>
 
-              <div className='ContactForm'>
-                  <form action="">
-                    <h3>Name</h3>
-                    <input type="text" />
-                    <h3>Reason For Your Visit</h3>
-                    <input type="text" />
-                    <h3>Email</h3>
-                    <input type="email" name="" id="" />
-                    <h3>Phone Number</h3>
-                    <input type="tel" name="" id="" />
-                    <h3>Last Dental Visit</h3>
-                    <input type="date" name="" id="" />
-                  </form>
+              <div>
+                <div className='TopFooter'>
+                  <div className='TopFooterSec1'>
+                    <p>Premier Dental</p>
+                  </div>
+                  <div className='TopFooterSec2'>
+                    <h4>Quick Links</h4>
+                    <a href="/about">About Us</a>
+                    <a href="/services">Services</a>
+                    <a href="/reviews">Reviews</a>
+                    <a href="/contact">Contact Us</a>
+                  </div>
+                  <div className='TopFooterSec3'>
+                  <h4>Hours of Operation</h4>
+                    <p>Monday:</p>
+                    <p>Tuesday:</p>
+                    <p>Wednesday:</p>
+                    <p>Thursday:</p>
+                    <p>Friday:</p>
+                    <p>Saturday:</p>
+                    <p>Sunday:</p>
+                  </div>
+                </div>
+                <div className='BottomFooter'>
+                  <p>&copy; <span id="year"></span> Premier Dental All rights reserved.</p>
+                </div>
               </div>
         </div>
       );
