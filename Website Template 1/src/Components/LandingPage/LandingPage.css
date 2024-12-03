@@ -241,10 +241,9 @@
     .SpecialOffers {
             display: flex;
             flex-direction: column;
-            margin-right: 5vw;
-            margin-left: 5vw;
-            margin-top: 5vw;
+            margin: 5vw;
             gap: 2vw;
+
     }
 
       .SpecialOffersCTA {
@@ -293,22 +292,6 @@
         font-family: Poppins;
         font-weight: 400;
         font-size: 14px;
-    }
-
-    .TopFooter {
-        display: flex;
-        margin: 0;
-        background-color: #4385ff;
-    }
-
-    .TopFooterSec1 {
-        width: 33vw;
-    }
-    .TopFooterSec2 {
-        width: 34vw;
-    }
-    .TopFooterSec3 {
-        width: 33vw;
     }
     
     }

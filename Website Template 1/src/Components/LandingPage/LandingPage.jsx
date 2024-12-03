@@ -6,7 +6,7 @@ import TeamMember2 from '../../assets/TeamMember2.jpg'
 import WhoWeAreImage from '../../assets/WhoWeAreImage.jpg'
 const LandingPage = () => {
 
-  document.getElementById('year').textContent = new Date().getFullYear();
+  
     
       return (
         <div>
@@ -74,34 +74,6 @@ const LandingPage = () => {
                   </li>
                 </ul>
                 <a className='SpecialOffersCTA' href="/contact">Book An Appointment</a>
-              </div>
-
-              <div>
-                <div className='TopFooter'>
-                  <div className='TopFooterSec1'>
-                    <p>Premier Dental</p>
-                  </div>
-                  <div className='TopFooterSec2'>
-                    <h4>Quick Links</h4>
-                    <a href="/about">About Us</a>
-                    <a href="/services">Services</a>
-                    <a href="/reviews">Reviews</a>
-                    <a href="/contact">Contact Us</a>
-                  </div>
-                  <div className='TopFooterSec3'>
-                  <h4>Hours of Operation</h4>
-                    <p>Monday:</p>
-                    <p>Tuesday:</p>
-                    <p>Wednesday:</p>
-                    <p>Thursday:</p>
-                    <p>Friday:</p>
-                    <p>Saturday:</p>
-                    <p>Sunday:</p>
-                  </div>
-                </div>
-                <div className='BottomFooter'>
-                  <p>&copy; <span id="year"></span> Premier Dental All rights reserved.</p>
-                </div>
               </div>
         </div>
       );
