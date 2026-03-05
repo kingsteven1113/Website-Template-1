@@ -149,6 +149,7 @@
         width: 100%;
         justify-content: space-evenly;
         place-items: center;
+        text-align: center;
     }
     .TeamMember img {
         object-fit: cover;
